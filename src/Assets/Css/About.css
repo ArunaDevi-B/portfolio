@@ -1,0 +1,28 @@
+.about-page{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 83vh;
+    padding: 20px 90px;
+    grid-gap: 2rem;
+    background-color:white;
+
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   height: 70%;
+
+}
+
+.about-para{
+    word-spacing: 5px;
+    
+}
+.about-image img{
+    width: 100%;
+    height: 70vh;
+    object-fit: cover;
+}

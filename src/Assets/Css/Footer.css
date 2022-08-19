@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-icons{
+    margin-right:50px;
+}
+
+.contact-icon{
+    margin-right:20px ;
+}
+
+.footer-content{
+    margin-left: 40%;
+    margin-top: 10px;
+}

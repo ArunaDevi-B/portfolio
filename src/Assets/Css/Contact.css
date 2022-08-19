@@ -1,0 +1,30 @@
+.Contact-container{
+    height: 85vh;
+    background-color:whitesmoke;
+    width: 100%;
+}
+
+.contact-me{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+    
+}
+.input-box1{
+    margin: 20px;
+    height: 100px;
+    width: 500px;
+    font-size: x-large;
+    /* padding-bottom: 100px; */
+
+}
+
+.input-box2{
+    /* margin: 20px; */
+    height: 120px;
+    width: 500px;
+    font-size: x-large;
+
+}
+

@@ -1,0 +1,32 @@
+.nav-bars{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 20px 50px;
+    background-color:rgb(70, 69, 67);
+    font-size: 17px;
+    color: white;
+
+
+}
+
+.nav-pages{
+    display: flex;
+    justify-content: space-between ;
+    width:500px;
+}
+.nav-pages li:hover{
+    cursor:pointer;
+    padding: 5px;
+    /* background-color:antiquewhite;
+    color: black; */
+
+}
+
+.nav-logo{
+    display: flex;
+    /* padding: 20px; */
+}
+.nav-logo h3{
+  margin: 8px 12px;
+}
