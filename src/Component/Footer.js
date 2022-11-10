@@ -14,7 +14,7 @@ const Footer = () => {
         <a href="https://github.com/ArunaDevi-B" target="_blank">
         <GitHubIcon 
         className='contact-icon' color="primary" fontSize='large'/></a>
-        <a href="https://github.com/ArunaDevi-B" target="_blank">
+        <a href="https://www.linkedin.com/in/b-aruna30/" target="_blank">
         <LinkedInIcon className='contact-icon' color="primary" fontSize='large'/></a>
     </div>
     </div>

@@ -6,17 +6,25 @@ import Brightness7Icon from '@mui/icons-material/Brightness7';
 import Button from '@mui/material/Button';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
+import Image from "../Assets/Image/profile-pic.jpg"
 
-
-  
 
 const NavBar = () => {
+//   const [themeMode, setThemeMode] = useState("dark");
+
+// const theme = createTheme({
+//   palette: {
+//     mode: themeMode,
+//   },
+// });
   
   return (
+    // <ThemeProvider theme={theme}>
+    //   <CssBaseline />
     <div className="nav-bars">
        <div className="nav-logo">
-       <Avatar alt="Cindy Baker" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfbXL4gigbxAaatMXgD5f5qS6MJ-i-P-PscTsNTyYGU_gY1AAer_3UkYPq90Fy3_6_lcI&usqp=CAU" />
-       <h3>Aruna Devi B</h3>
+       <Avatar alt="Cindy Baker" src={Image} />
+       <h3>Aruna B</h3>
        </div>
        <div>
            <ul className='nav-pages'>
@@ -25,9 +33,17 @@ const NavBar = () => {
                <li onClick={()=>{window.location.replace("/Skills")}}>Skills</li>
                <li onClick = {()=>{window.location.replace("/Projects")}}>Project</li>
                <li onClick = {()=>{window.location.replace("/Contact")}}>Contact</li>
+               {/* <Button className="theme-btn"
+        color="inherit"
+        startIcon = {themeMode === 'dark' ? <Brightness7Icon /> : <Brightness4Icon />}
+        onClick={()=> setThemeMode(themeMode == "dark" ? "light" : "dark")} >{themeMode =="dark" ? "Light" : "Dark"} Mode</Button> */}
+ 
+
            </ul>
        </div>
     </div>
+    // </ThemeProvider>
+
   )
 }
 

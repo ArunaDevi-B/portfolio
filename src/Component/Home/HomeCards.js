@@ -27,7 +27,7 @@ const HomeCards = () => {
         <div className="home-card1">
         <AccountTreeIcon className="card-icon"/>
             <h6>Projects Completed</h6>
-            <h6>10</h6>
+            <h6>5</h6>
         </div>
     </div>
   )

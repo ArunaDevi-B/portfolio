@@ -43,7 +43,7 @@ const Skill = () => {
             <div className='my-skill'>
                <div className='my-skill-head'>
                 <CheckCircleOutlineIcon />
-                <h4>React</h4>
+                <h4>React JS</h4>
                </div>
                <div className='skill-content'>
                <img className="skill-icon"
@@ -69,7 +69,31 @@ const Skill = () => {
                <img className="skill-icon"
                     src="https://e7.pngegg.com/pngimages/31/556/png-clipart-dolphin-illustration-mysql-logo-icons-logos-emojis-tech-companies.png" />
                <p className='my-skill-content'>MySQL is an open-source relational database management system. Its name is a combination of "My", the name of co-founder Michael Widenius's daughter My, and "SQL", the abbreviation for Structured Query Language.</p>
-               </div>            </div>
+               </div>
+            </div>
+            <div className='my-skill'>
+               <div className='my-skill-head'>
+                <CheckCircleOutlineIcon />
+                <h4>Node JS</h4>
+               </div>
+               <div className='skill-content'>
+               <img className="skill-icon"
+                    src="https://w7.pngwing.com/pngs/232/470/png-transparent-circle-js-node-node-js-programming-round-icon-popular-services-brands-vol-icon.png" />
+              <p className='my-skill-content'>Node.js is an open-source server environment and is a back-end JavaScript runtime environment. Node.js runs on a JavaScript Engine and executes JavaScript code outside a web browser.</p>
+               </div>
+            </div>
+            <div className='my-skill'>
+               <div className='my-skill-head'>
+                <CheckCircleOutlineIcon />
+                <h4>Mongo DB</h4>
+               </div>
+               <div className='skill-content'>
+               <img className="skill-icon"
+                    src="https://servicenav.coservit.com/wp-content/uploads/2022/05/18-1.jpg" />
+              <p className='my-skill-content'>MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas.</p>
+               </div>
+            </div>
+            
         </div>
         
     </div>

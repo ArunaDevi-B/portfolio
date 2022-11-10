@@ -15,6 +15,7 @@ const Contact = () => {
         <div className='contact-me'>
         <h3></h3>
         {/* <label for="name" >Name</label> */}
+        
         <TextField className='input-box1' id="standard-basic" label="Name" variant="filled" />
         <TextField className='input-box1' id="standard-basic" label="Email" variant="filled" />
         <TextField className='input-box2' id="standard-basic" label="Message" variant="filled" />

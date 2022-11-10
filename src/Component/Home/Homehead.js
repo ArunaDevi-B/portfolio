@@ -10,7 +10,7 @@ function Homehead() {
     <div className="Home-head">
         <div className="home-head-content">
             <h1>I'm Aruna Devi B,</h1>
-            <h2>A Web Developer</h2>
+            <h2>A JavaScript Developer</h2>
             <Button onClick={()=>{window.location.replace("/About")}}
             color="inherit"
             style={styles}
