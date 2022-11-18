@@ -9,7 +9,7 @@ const Footer = () => {
     <div style={{backgroundColor:"black", color:"white", padding:"20px"}} className='footer'> 
         <center className="footer-content">Copyright © 2022.All Rights Reserved</center>
         <div className='contact-icons'>
-        <a href="https://github.com/ArunaDevi-B" target="_blank">
+        <a href="https://www.linkedin.com/in/b-aruna30/" target="_blank">
         <InstagramIcon className='contact-icon' color="primary" fontSize='large'/></a>
         <a href="https://github.com/ArunaDevi-B" target="_blank">
         <GitHubIcon 
