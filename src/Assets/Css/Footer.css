@@ -2,6 +2,9 @@
     display: flex;
     justify-content: space-between;
 }
+.footer_container{
+    width: 100vw;
+}
 
 .contact-icons{
     margin-right:50px;

@@ -1,7 +1,7 @@
 .Skill-container{
     display: flex;
     flex-direction: column;
-    height:83vh;
+    height:100vh;
     padding: 30px 90px;
     background-color:whitesmoke;
     /* text-align: center; */
@@ -26,7 +26,8 @@
     display: flex;
     align-items: center;
     margin: 20px;
-    height: 70px ;
+    height: 11vh ;
+    width: 25vw;
     margin-top: 10px;
 }
 

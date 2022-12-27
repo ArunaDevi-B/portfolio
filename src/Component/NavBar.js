@@ -17,9 +17,7 @@ const NavBar = () => {
                <li onClick={()=>{window.location.replace("/About")}}>About</li>
                <li onClick={()=>{window.location.replace("/Skills")}}>Skills</li>
                <li onClick = {()=>{window.location.replace("/Projects")}}>Project</li>
-               <li> <a 
-               className='resume'
-                href='https://drive.google.com/file/d/1_RkuFCoLqvQjnyYgvBoyMy8LLu3BDwJ4/view?usp=sharing' target="_blank" rel="noopener noreferrer">Resume </a></li>
+               <li onClick = {()=>{window.location.replace("/contact")}}>Contact</li>
                
            </ul>
        </div>
