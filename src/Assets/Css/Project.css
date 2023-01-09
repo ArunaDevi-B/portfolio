@@ -27,7 +27,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     margin-top: 30px;
-    margin-left: 110px;
+    margin-left: 340px;
     margin-bottom: 50px;
     align-items: center;
 }
@@ -39,6 +39,7 @@
     /* align-items: flex-start; */
     text-align: start;
     width: 77%;
+    margin-left: 110px;
 
 }
 /* .project-card p{
