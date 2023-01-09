@@ -67,7 +67,7 @@ requirement.
               </Button>
             </div>
           </div>
-          <div className="project-card">
+          {/* <div className="project-card">
             <img
               className="project-pic"
               src="https://jessehouwing.net/content/images/size/w2000/2018/07/stackoverflow-1.png"  />
@@ -118,8 +118,8 @@ clarified
                 Backend
               </Button>
             </div>
-          </div>
-          <div className="project-card">
+          </div> */}
+          {/* <div className="project-card">
             <img
               className="project-pic"
               src="https://static.toiimg.com/thumb/msid-89720888,imgsize-97796,width-400,resizemode-4/89720888.jpg"   />
@@ -171,7 +171,7 @@ clarified
                 Backend
               </Button>
             </div>
-          </div>
+          </div> */}
           <div className="project-card">
             <img
               className="project-pic"
